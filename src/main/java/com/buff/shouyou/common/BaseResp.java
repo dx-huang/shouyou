@@ -9,6 +9,6 @@ import lombok.Data;
  **/
 @Data
 public class BaseResp {
-    private Integer code; //状态码  0:成功 1:失败
-    private String message; //状态消息
+    private Integer code = 0; //状态码  0:成功 1:失败
+    private String message = "success"; //状态消息
 }
